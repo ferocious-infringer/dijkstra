@@ -1,0 +1,18 @@
+
+~ POINTS
+point A = (0.0, 0.5)
+point B = (1.0, 1.0)
+point C = (3.4, 2.7)
+point F = (2.0, 2.0)
+point L = (6.9, 4.2)
+point Z = (69.696969, 420.420420);
+
+~ LINKS
+link C ---> A
+link F <--> B
+link F <--- C
+link L ---> F
+link B <--- A
+link L <--> A
+
+source A
